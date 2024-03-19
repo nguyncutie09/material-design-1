@@ -7,7 +7,33 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: label_2
+    properties: {text: Nhập dãy số, bold: true}
+    type: Label
+    layout_properties: {grid_position: 'UVSURH,GWRYDG'}
+  - name: so_txt
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'EELVAJ,NBHBHT'}
+  - name: btn_sap_xep
+    properties: {text: Sắp xếp}
+    type: Button
+    layout_properties: {grid_position: 'YVGVNP,LEBFGP'}
+    event_bindings: {click: btnSort_click}
+  - name: label_3
+    properties: {text: Kết quả sắp xếp, bold: true}
+    type: Label
+    layout_properties: {grid_position: 'XWMHAS,QUFOYP'}
+  - name: txt_so
+    properties: {}
+    type: TextBox
+    layout_properties: {grid_position: 'ACIHQJ,JLUNBV'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: label_1
+  properties: {text: Merge Sort, align: center}
+  type: Label
+  layout_properties: {slot: title}
