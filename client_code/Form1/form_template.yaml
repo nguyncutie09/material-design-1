@@ -16,6 +16,7 @@ components:
     properties: {}
     type: TextBox
     layout_properties: {grid_position: 'EELVAJ,NBHBHT'}
+    event_bindings: {pressed_enter: so_txt_pressed_enter}
   - name: btn_sap_xep
     properties: {text: Sắp xếp}
     type: Button

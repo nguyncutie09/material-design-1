@@ -81,7 +81,7 @@ class Form1(Form1Template):
 
     # Any code you write here will run before the form opens.
 
-  def btn_sap_xep_click(self, **event_args):
+  def btnSort_click(self, **event_args):
     """This method is called when the button is clicked"""
     self.txt_so.text= function.quicksort_string(self.so_txt.text)
     pass
